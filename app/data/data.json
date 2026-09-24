@@ -1,0 +1,142 @@
+{
+  "profile": {
+    "name": "Hrishikesh",
+    "fullName": "Hrishikesh Bharadwaj",
+    "title": "Entry-Level Full-Stack Engineer (Backend Focus)",
+    "tagline": "CS Engineering student specializing in Node.js REST APIs, microservices, Redis caching, and React.js frontend interfaces.",
+    "subheading": "B.Tech in Computer Science and Engineering @ Assam Engineering College (CGPA: 8.18)",
+    "location": "Guwahati, Assam, India",
+    "email": "rdjoo83@gmail.com",
+    "bio": "I am a Computer Science Engineering student at Assam Engineering College (CGPA: 8.18) passionate about full-stack web development with a strong focus on backend systems. I enjoy building applications with Node.js, Express, databases, microservices, and React.js.",
+    "socials": {
+      "github": "https://github.com/hrishikesh23-152-cloud",
+      "linkedin": "https://linkedin.com/in/hbj04",
+      "leetcode": "https://leetcode.com/u/6mOG7jHC4Y/",
+      "gfg": "https://www.geeksforgeeks.org/profile/hrishikeshbh?tab=activity"
+    }
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Resume Analyzer (AI-Powered)",
+      "slug": "resume-analyzer",
+      "description": "An AI app that parses candidate resumes against target career goals to generate structured feedback reports. Built with a Node.js backend using Groq LLMs to produce reliable JSON outputs, resume scores, and actionable feedback.",
+      "liveUrl": "https://resume-analyzer-kqqa.onrender.com/",
+      "githubUrl": "https://github.com/hrishikesh23-152-cloud/Resume-Analyzer",
+      "tags": [
+        "Node.js",
+        "Groq LLM",
+        "Structured Output",
+        "Express.js",
+        "Live Demo"
+      ],
+      "stars": 1,
+      "isFeatured": true
+    },
+    {
+      "id": 2,
+      "title": "Scalable Web Backend with Rate Limiting & Caching",
+      "slug": "scalable-web-backend",
+      "description": "A backend project built to practice handling peak web traffic. Features Redis caching for fast responses, IP-based sliding window rate limiting, and Redis BullMQ for background workers like non-blocking Cloudinary image deletion.",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/hrishikesh23-152-cloud/Scalable-Web-Backend-with-Rate-Limiting-Caching-and-Background-Processing",
+      "tags": [
+        "Node.js",
+        "Redis",
+        "BullMQ",
+        "Rate Limiting",
+        "Cloudinary",
+        "Non-Blocking Async"
+      ],
+      "stars": 1,
+      "isFeatured": true
+    },
+    {
+      "id": 3,
+      "title": "Node.js Microservices Architecture with Kafka",
+      "slug": "node-js-microservices-kafka",
+      "description": "A simple microservices system built to learn how distributed systems work. Includes an API Gateway routing requests to an Auth Service, Task Service, and Media Service, using Apache Kafka for pub/sub messaging and PostgreSQL for storage.",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/hrishikesh23-152-cloud/Node-js-microservices-kafka",
+      "tags": [
+        "Node.js",
+        "Apache Kafka",
+        "API Gateway",
+        "Auth Service",
+        "Task Service",
+        "Media Service"
+      ],
+      "stars": 1,
+      "isFeatured": true
+    }
+  ],
+  "experience": [
+    {
+      "title": "Industrial Intern",
+      "company": "Sumato Globaltech Pvt. Ltd.",
+      "period": "Jul 2026",
+      "description": "Engineered a browser-based interactive treadmill game built with React.js and ESP32 hardware integration. Captured sensor data using TCRT5000 sensors and transmitted user activity via ESP32 Bluetooth Low Energy (BLE) for real-time gameplay."
+    },
+    {
+      "title": "Winter Intern",
+      "company": "Indian Oil Corporation Limited (IOCL)",
+      "period": "Jan 2026 - Feb 2026",
+      "description": "Developed a Machine Learning-based mechanical failure prediction system using Random Forest for industrial maintenance. Built data preprocessing and feature engineering pipelines for analyzing sensor streams."
+    },
+    {
+      "title": "Summer Intern",
+      "company": "NIELIT Guwahati",
+      "period": "Jun 2025 - Jul 2025",
+      "description": "Constructed a heart disease predictive model in Python (Pandas, NumPy, Scikit-learn). Applied classification algorithms on clinical datasets to analyze key health risk factors."
+    }
+  ],
+  "skills": {
+    "Languages": [
+      "C",
+      "C++",
+      "Python",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "Backend & Architecture": [
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "Microservices",
+      "API Gateway",
+      "Rate Limiting",
+      "BullMQ",
+      "Asynchronous Processing"
+    ],
+    "Frontend & Web UI": [
+      "React.js",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "HTML5",
+      "CSS3"
+    ],
+    "Databases & Caching": [
+      "PostgreSQL",
+      "MongoDB",
+      "SQL",
+      "Redis",
+      "Mongoose"
+    ],
+    "Messaging & Systems": [
+      "Apache Kafka",
+      "Message Queues",
+      "Pub/Sub",
+      "Event-Driven Architecture",
+      "Auth & Media Services"
+    ],
+    "AI, DevOps & Cloud": [
+      "Groq LLM",
+      "Structured Outputs",
+      "Docker",
+      "AWS S3 / EC2",
+      "Git & GitHub",
+      "Postman",
+      "Linux"
+    ]
+  }
+}

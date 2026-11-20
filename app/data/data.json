@@ -51,24 +51,28 @@
       "stars": 1,
       "isFeatured": true
     },
-    {
-      "id": 3,
-      "title": "Node.js Microservices Architecture with Kafka",
-      "slug": "node-js-microservices-kafka",
-      "description": "A simple microservices system built to learn how distributed systems work. Includes an API Gateway routing requests to an Auth Service, Task Service, and Media Service, using Apache Kafka for pub/sub messaging and PostgreSQL for storage.",
-      "liveUrl": null,
-      "githubUrl": "https://github.com/hrishikesh23-152-cloud/Node-js-microservices-kafka",
-      "tags": [
-        "Node.js",
-        "Apache Kafka",
-        "API Gateway",
-        "Auth Service",
-        "Task Service",
-        "Media Service"
-      ],
-      "stars": 1,
-      "isFeatured": true
-    }
+  {
+  "id": 3,
+  "title": "Scalable Backend Architecture",
+  "slug": "scalable-backend-architecture",
+  "description": "A modular and scalable backend built with Node.js and TypeScript, featuring Zod request validation, centralized error handling, structured logging, RBAC authentication, Redis caching, API rate limiting, automated testing with Vitest, and CI/CD deployment to AWS EC2 using Docker and GitHub Actions.",
+  "liveUrl": "http://3.111.52.104:4000/api-docs/",
+  "githubUrl": "https://github.com/hrishikesh23-152-cloud/Node-js-scalable-backend",
+  "tags": [
+    "Node.js",
+    "TypeScript",
+    "Express.js",
+    "Zod",
+    "Redis",
+    "RBAC",
+    "Docker",
+    "Vitest",
+    "GitHub Actions",
+    "AWS EC2"
+  ],
+  "stars": 1,
+  "isFeatured": true
+}
   ],
   "experience": [
     {
@@ -123,7 +127,7 @@
       "Mongoose"
     ],
     "Messaging & Systems": [
-      "Apache Kafka",
+      "BullMq",
       "Message Queues",
       "Pub/Sub",
       "Event-Driven Architecture",
